@@ -4,50 +4,27 @@
 </div>
 
 <div class="container mt-5 text-center text-dark">
-    <h1>KONSULTASI</h1>
+    <h2>Konsultasi</h2>
 </div>
+    <!-- Divider -->
+    <hr class="my-5">
 
-<form class="row g-3 text-dark">
-    <div class="col-md-6">
-        <label for="inputEmail4" class="form-label">Nama</label>
-        <input type="Nama" class="form-control" id="inputNama">
-    </div>
-    <div class="col-md-6">
-        <label for="inputEmail" class="form-label">Email</label>
-        <input type="Email" class="form-control" id="inputEmail">
-    </div>
-    <div class="col-12">
-        <label for="inputAlamat" class="form-label">Alamat</label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-    </div>
-    <div class="col-12">
-        <label for="inputNoTelp" class="form-label">No Telephone</label>
-        <input type="text" class="form-control" id="inputAddress2" placeholder="+62xxxxxx">
-    </div>
-    <div class="col-md-6">
-        <label for="inputCity" class="form-label">Kota</label>
-        <input type="text" class="form-control" id="inputCity">
-    </div>
-    <div class="col-md-4">
-        <label for="inputPerihal" class="form-label">Perihal</label>
-        <select id="inputPerihal" class="form-select">
-            <option selected>Konsultasi</option>
-            <option>Pemesanan Obat</option>
-        </select>
-    </div>
-    <div class="col-md-2">
-        <label for="inputZip" class="form-label">Zip</label>
-        <input type="text" class="form-control" id="inputZip">
-    </div>
-    <div class="col-12">
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-                Check me out
-            </label>
+    <!-- Form Pengajuan Konsultasi -->
+    <h2 class="mb-4 text-dark">Form Pengajuan Konsultasi</h2>
+    <form class="text-dark">
+        <div class="mb-3">
+            <label for="consultName" class="form-label">Nama Lengkap</label>
+            <input type="text" class="form-control" id="consultName" placeholder="Masukkan nama Anda">
         </div>
-    </div>
-    <div class="col-12">
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </div>
-</form>
+        <div class="mb-3">
+            <label for="consultEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="consultEmail" placeholder="Masukkan email Anda">
+        </div>
+        <div class="mb-3">
+            <label for="consultMessage" class="form-label">Pesan atau Keluhan</label>
+            <textarea class="form-control" id="consultMessage" rows="4" placeholder="Tulis pesan atau keluhan Anda"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Ajukan Konsultasi</button>
+    </form>
+
+</div>

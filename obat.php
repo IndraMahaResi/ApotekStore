@@ -294,4 +294,32 @@
             <!-- Tambahkan data obat lainnya sesuai kebutuhan -->
         </tbody>
     </table>
-</div>
+    <hr class="my-5">
+    <div class="container mt-5 text-dark">
+        <!-- Form Pemesanan Obat -->
+        <h2 class="mb-4">Form Pemesanan Obat</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" placeholder="Masukkan nama Anda">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda">
+            </div>
+            <div class="mb-3">
+                <label for="medicine" class="form-label">Nama Obat</label>
+                <input type="text" class="form-control" id="medicine" placeholder="Masukkan nama obat">
+            </div>
+            <div class="mb-3">
+                <label for="quantity" class="form-label">Jumlah</label>
+                <input type="number" class="form-control" id="quantity" placeholder="Masukkan jumlah">
+            </div>
+            <div class="mb-3">
+                <label for="notes" class="form-label">Catatan Tambahan</label>
+                <textarea class="form-control" id="notes" rows="3" placeholder="Tambahkan catatan jika diperlukan"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Pesan Obat</button>
+        </form>
+
+    </div>
